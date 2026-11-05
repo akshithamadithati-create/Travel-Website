@@ -48,6 +48,9 @@ h2 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
     min-width: 0;
 }
+.hotel-card:hover {
+    transform: translateY(-5px);
+}
 
 /* Hotel image */
 .hotel-card img {
