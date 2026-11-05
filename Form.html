@@ -1,41 +1,50 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-Up Page</title>
+    <title>Traveller Sign Up</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
-     <header>
+
+    <div class="container">
+
         <h1>Traveller Sign Up</h1>
-        <h4>Create your account and start exploring the world!</h4>
-    </header>
+        <p>Create your account and start exploring the world!</p>
 
-    <form>
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="name" placeholder="Enter your First Name" required> 
-        <br><br>
+        <form action="hotel.html">
 
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="name" placeholder="Enter your Last Name" required> 
-        <br><br>
+            <div class="form-group">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" placeholder="Enter your First Name" required>
+            </div>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-        <br><br>
+            <div class="form-group">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" placeholder="Enter your Last Name" required>
+            </div>
 
-        <label for="phone">Phone:</label>
-        <input type="text" id="phone" name="number" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" minlength="10"  placeholder="Enter Mobile Number" required> 
-        <br><br>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required>
-        <br><br>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" placeholder="Enter Mobile Number" required>
+            </div>
 
-        <input type="submit" value="Sign up">
- 
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
 
-    </form>
-    
+            <button type="submit">Sign up</button>
+
+        </form>
+    </div>
+
 </body>
 </html>
