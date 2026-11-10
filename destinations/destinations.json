@@ -1,0 +1,83 @@
+
+[
+    {
+        "id": 1,
+        "name": "Goa",
+        "country": "India",
+        "price": 12000,
+        "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600",
+        "description": "Enjoy beautiful beaches and sunsets."
+    },
+    {
+        "id": 2,
+        "name": "Manali",
+        "country": "India",
+        "price": 15000,
+        "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600",
+        "description": "Explore mountains and snowy landscapes."
+    },
+    {
+        "id": 3,
+        "name": "Paris",
+        "country": "France",
+        "price": 55000,
+        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600",
+        "description": "Discover the beautiful city of Paris."
+    },
+    {
+        "id": 4,
+        "name": "Bali",
+        "country": "Indonesia",
+        "price": 40000,
+        "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600",
+        "description": "Relax on tropical beaches."
+    },
+    {
+        "id": 5,
+        "name": "Dubai",
+        "country": "UAE",
+        "price": 35000,
+        "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600",
+        "description": "Experience modern attractions and shopping."
+    },
+    {
+    "id": 6,
+    "name": "Singapore",
+    "country": "Singapore",
+    "price": 45000,
+    "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=600",
+    "description": "Explore beautiful gardens and modern attractions."
+},
+{
+    "id": 7,
+    "name": "London",
+    "country": "United Kingdom",
+    "price": 60000,
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600",
+    "description": "Discover historic landmarks and city life."
+},
+{
+    "id": 8,
+    "name": "Switzerland",
+    "country": "Switzerland",
+    "price": 65000,
+    "image": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=600",
+    "description": "Enjoy beautiful mountains and scenic views."
+},
+{
+    "id": 9,
+    "name": "Japan",
+    "country": "Japan",
+    "price": 55000,
+    "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600",
+    "description": "Experience Japanese culture and traditions."
+},
+{
+    "id": 10,
+    "name": "New York",
+    "country": "USA",
+    "price": 70000,
+    "image": "https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=600",
+    "description": "Explore famous landmarks and skyscrapers."
+}
+]
