@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Search</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Flight Search</h1>
+        <p>Find the best flights for your journey</p>
+    </header>
+
+    <main>
+        <h2>Available Flights</h2>
+
+        <div class="filters">
+            <label for="maxPrice">Maximum Price:</label>
+            <input type="number" id="maxPrice" placeholder="Enter maximum price">
+
+            <label for="stops">Stops:</label>
+            <select id="stops">
+                <option value="all">All</option>
+                <option value="0">Non-stop</option>
+                <option value="1">1 Stop</option>
+                <option value="2">2 Stops</option>
+            </select>
+
+            <button id="filterBtn">Apply Filters</button>
+        </div>
+        <div class="sorting">
+         <label for="sortFlights">Sort Flights:</label>
+
+         <select id="sortFlights">
+           <option value="default">Default</option>
+           <option value="price">Price: Low to High</option>
+           <option value="departure">Departure: Earliest First</option>
+         </select>
+        </div>
+        <div id="flightList"></div>
+    </main>
+
+</body>
+</html>
