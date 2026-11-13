@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Page</title>
+</head>
+<body>
+     <header>
+        <h1>Traveller Sign Up</h1>
+        <h4>Create your account and start exploring the world!</h4>
+    </header>
+
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="name" placeholder="Enter your First Name" required> 
+        <br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="name" placeholder="Enter your Last Name" required> 
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="number" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" minlength="10"  placeholder="Enter Mobile Number" required> 
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <input type="submit" value="Sign up">
+ 
+
+    </form>
+    
+</body>
+</html>
