@@ -11,14 +11,14 @@ function App() {
         <h1>Explore Our Hotels</h1>
         <p>Find the perfect hotel for your next trip</p>
       </header>
-      <div className="search-box">
-        <input
-          type="text"
-          placeholder="Search hotels..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-      </div>
+     <div className="search-box">
+  <input
+    type="text"
+    placeholder="🔍 Search hotels..."
+    value={search}
+    onChange={(e) => setSearch(e.target.value)}
+  />
+</div>
 
       <HotelList
   hotels={hotels.filter(
