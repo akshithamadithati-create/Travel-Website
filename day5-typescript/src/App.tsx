@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { hotels } from "./data/hotels";
+import HotelList from "./components/HotelList";
 import "./App.css";
 
 function App() {
@@ -19,24 +20,13 @@ function App() {
         />
       </div>
 
-      <main className="hotel-container">
-        {hotels
-  .filter((hotel) =>
-  hotel.name.toLowerCase().includes(search.toLowerCase()) ||
-  hotel.location.toLowerCase().includes(search.toLowerCase())
-)
-  .map((hotel) =>  (
-          <div className="hotel-card" key={hotel.id}>
-            <h2>{hotel.name}</h2>
-            <p>Location: {hotel.location}</p>
-            <p>Price: ₹{hotel.price} / night</p>
-            <p>Rating: ⭐ {hotel.rating}</p>
-            <button onClick={() => alert(`You selected ${hotel.name}`)}>
-              Book Now
-            </button>
-          </div>
-        ))}
-      </main>
+      <HotelList
+  hotels={hotels.filter(
+    (hotel) =>
+      hotel.name.toLowerCase().includes(search.toLowerCase()) ||
+      hotel.location.toLowerCase().includes(search.toLowerCase())
+  )}
+/>
     </div>
   );
 }
