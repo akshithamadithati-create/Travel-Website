@@ -7,11 +7,13 @@ export interface Hotel {
   discount?: number;
 }
 
+export type Status = "pending" | "confirmed";
+
 export interface Flight {
   id: number;
   airline: string;
   from: string;
   to: string;
   price: number;
-  status: "pending" | "confirmed";
+  status: Status;
 }
