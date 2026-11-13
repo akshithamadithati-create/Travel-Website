@@ -7,6 +7,12 @@ interface HotelCardProps {
 function HotelCard({ hotel }: HotelCardProps) {
   return (
     <div className="hotel-card">
+      <img
+        src={hotel.image}
+        alt={hotel.name}
+        className="hotel-image"
+      />
+
       <h2>{hotel.name}</h2>
       <p>Location: {hotel.location}</p>
       <p>Price: ₹{hotel.price} / night</p>

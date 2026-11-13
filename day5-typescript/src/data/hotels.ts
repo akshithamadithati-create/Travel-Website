@@ -1,3 +1,4 @@
+
 import type { Hotel } from "../types/hotel";
 
 export const hotels: Hotel[] = [
@@ -7,6 +8,7 @@ export const hotels: Hotel[] = [
     location: "Hyderabad",
     price: 5000,
     rating: 4.8,
+    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600",
   },
   {
     id: 2,
@@ -14,6 +16,7 @@ export const hotels: Hotel[] = [
     location: "Goa",
     price: 4000,
     rating: 4.5,
+    image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600",
   },
   {
     id: 3,
@@ -21,6 +24,7 @@ export const hotels: Hotel[] = [
     location: "Bangalore",
     price: 3500,
     rating: 4.6,
+    image: "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=600",
   },
   {
     id: 4,
@@ -28,6 +32,7 @@ export const hotels: Hotel[] = [
     location: "Ooty",
     price: 3000,
     rating: 4.4,
+    image: "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=600",
   },
   {
     id: 5,
@@ -35,6 +40,7 @@ export const hotels: Hotel[] = [
     location: "Chennai",
     price: 4500,
     rating: 4.7,
+    image: "https://images.unsplash.com/photo-1769149255642-c9741ad91b05?auto=format&fit=crop&w=1000&q=80",
   },
   {
     id: 6,
@@ -42,6 +48,7 @@ export const hotels: Hotel[] = [
     location: "Mumbai",
     price: 2500,
     rating: 4.3,
+    image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600",
   },
   {
     id: 7,
@@ -49,6 +56,7 @@ export const hotels: Hotel[] = [
     location: "Manali",
     price: 5500,
     rating: 4.9,
+    image: "https://images.unsplash.com/photo-1756727526787-b113e5c6d865?auto=format&fit=crop&w=1000&q=80",
   },
   {
     id: 8,
@@ -56,6 +64,7 @@ export const hotels: Hotel[] = [
     location: "Udaipur",
     price: 3800,
     rating: 4.5,
+    image: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=600",
   },
   {
     id: 9,
@@ -63,6 +72,7 @@ export const hotels: Hotel[] = [
     location: "Delhi",
     price: 2800,
     rating: 4.2,
+    image: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600",
   },
   {
     id: 10,
@@ -70,5 +80,6 @@ export const hotels: Hotel[] = [
     location: "Mysore",
     price: 4200,
     rating: 4.7,
+    image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600",
   },
 ];
