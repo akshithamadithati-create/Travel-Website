@@ -1,0 +1,84 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Ocean View Resort",
+      "destination": "Goa",
+      "price": 3500,
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d"
+    },
+    {
+      "id": 2,
+      "name": "Sunshine Hotel",
+      "destination": "Hyderabad",
+      "price": 2500,
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945"
+    },
+    {
+      "id": 3,
+      "name": "Mountain View Resort",
+      "destination": "Manali",
+      "price": 4000,
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1518732714860-b62714ce0c59"
+    },
+    {
+      "id": 4,
+      "name": "City Comfort Hotel",
+      "destination": "Bengaluru",
+      "price": 2000,
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791"
+    },
+    {
+      "id": 5,
+      "name": "Beach Paradise",
+      "destination": "Goa",
+      "price": 5000,
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d"
+    },
+    {
+      "id": 6,
+      "name": "Royal Palace Hotel",
+      "destination": "Jaipur",
+      "price": 4500,
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb"
+    },
+    {
+      "id": 7,
+      "name": "Green Valley Resort",
+      "destination": "Ooty",
+      "price": 3000,
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c"
+    },
+    {
+      "id": 8,
+      "name": "Lake View Hotel",
+      "destination": "Udaipur",
+      "price": 3800,
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945"
+    },
+    {
+      "id": 9,
+      "name": "Grand Luxury Stay",
+      "destination": "Mumbai",
+      "price": 6000,
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791"
+    },
+    {
+      "id": 10,
+      "name": "Hilltop Residency",
+      "destination": "Munnar",
+      "price": 2800,
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1518732714860-b62714ce0c59"
+    }
+  ]
+}
