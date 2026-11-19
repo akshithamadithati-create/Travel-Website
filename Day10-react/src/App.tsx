@@ -3,6 +3,9 @@ import useFetch from "./hooks/useFetch";
 import type { Hotel } from "./types/hotel";
 import HotelList from "./components/HotelList";
 import HotelSkeleton from "./components/HotelSkeleton";
+import CartSummary from "./components/CartSummary";
+import Cart from "./components/Cart";
+import FlightList from "./components/FlightList";
 import "./App.css";
 
 interface Filters {
@@ -51,7 +54,11 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Hotel Search Application</h1>
+  <h1>Hotel Search Application</h1>
+
+  <CartSummary hotels={hotels ?? []} />
+  <Cart hotels={hotels ?? []} />
+  <FlightList />
 
       <div className="filter-container">
         <div className="filter-grid">
